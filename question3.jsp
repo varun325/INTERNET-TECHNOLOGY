@@ -23,14 +23,14 @@
             }
             if(!dob.equals("12/04/1997")){
                 flag=0;
-                System.out.println("Wrong dob");
+                out.println("Wrong dob");
             }
             if(!email.equals("sharmavarun1300@gmail.com")){
                 flag=0;
-                System.out.println("Wrong email id");
+                out.println("Wrong email id");
             }
             if(flag==1){
-                System.out.println("Validated");
+                out.println("Validated");
             }
         %>
     </body>
